@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DAL;
+using Interface.BL;
 
 namespace BL
 {
-    public class TransducerController
+    
+    public class TransducerController : iTransducerCtrl
     {
         DALInit mydal;
         public void InitTransducer() {

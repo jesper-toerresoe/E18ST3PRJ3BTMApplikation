@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Interface.BL
 {
-    class Class1
-    {
+    public interface iTransducerCtrl {     
+        void InitTransducer();
+        void StartKalibaration();
     }
 }

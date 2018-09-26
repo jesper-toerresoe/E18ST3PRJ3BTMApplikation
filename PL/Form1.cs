@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BL;
-
+using Interface.BL;
 namespace PL
 {
     public partial class Form1 : Form
     {
-        private TransducerController mytransducerctrl;
+        private iTransducerCtrl mytransducerctrl;
         public Form1()
         {
             InitializeComponent();
