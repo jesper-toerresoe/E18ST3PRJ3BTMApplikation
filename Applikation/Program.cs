@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PL;
 
 namespace Applikation
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
+            PLInit mypl = new PLInit();
+            mypl.InitPL();
         }
     }
 }
